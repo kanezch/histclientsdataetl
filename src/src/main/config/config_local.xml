@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+	<VALUE>
+		<mongodbUserName>admin</mongodbUserName>
+		<mongodbPassWord>admin</mongodbPassWord>
+		<mongodbDBName>monitor</mongodbDBName>
+		<mongodbServerAddr>172.27.8.110</mongodbServerAddr>
+		<mongodbServerPort>27017</mongodbServerPort>
+		<mongodbCollection>histclientverboses</mongodbCollection>
+		<hbaseTableName>testtable0801</hbaseTableName>
+		<writePosTableName>histclientsetlwritePos</writePosTableName>
+		<remoteHiveClusterIP>172.27.8.112</remoteHiveClusterIP>
+		<remoteHiveClusterUserName>root</remoteHiveClusterUserName>
+		<remoteHiveClusterPassword>Aa123456</remoteHiveClusterPassword>
+		<execCMD>sh /home/mongo-hive-hbase/Hive_HistClientsInfoAnalysis.sh</execCMD>
+	</VALUE>
+</CONFIG>
